@@ -212,6 +212,11 @@ background:#FFF;
 content:'';
 left:0px;
 }
+#counter{
+background: #000000;
+color: #FFFFFF;
+font-size: 1.2em;
+}
 a{
 text-decoration: underline solid #000;
 color:#000;
