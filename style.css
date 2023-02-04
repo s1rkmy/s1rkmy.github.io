@@ -5,6 +5,9 @@ font-family: 'Recursive', 'Noto Sans JP','游ゴシック','Yu Gothic','メイ�
 background:#FFF;
 padding: 0;
 }
+p, h2, p a, footer, footer a{
+color: #113D29;
+}
 b{
 font-weight: 500;
 }
@@ -59,6 +62,7 @@ margin:0 auto;
 margin-bottom: 50px;
 }
 .inner-header h2{
+color: #FFFFFF;
 font-size:3vmin !important;
 margin:0px;
 letter-spacing: 1px;
@@ -121,7 +125,7 @@ color:#000;
    background-color: #FFFFFF;
 }
 ::-webkit-scrollbar-thumb{
-   background-color: #000000;
+   background-color: #113D29;
 }
 .navbar ul{
 margin:0 !important;
@@ -134,7 +138,7 @@ display:inline;
 }
 ::selection{
 color:#FFF;
-background:#000000;
+background:#113D29;
 }
 .a::selection{
 color:#000;
@@ -213,13 +217,13 @@ content:'';
 left:0px;
 }
 #counter{
-background: #000000;
+background: #113D29;
 color: #FFFFFF;
 font-size: 1.2em;
 }
 a{
-text-decoration: underline solid #000;
-color:#000;
+text-decoration: underline solid #113D29;
+color:#113D29;
 }
 li a:hover::before{
 bottom:0px;
